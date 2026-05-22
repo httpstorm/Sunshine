@@ -313,6 +313,8 @@
     "output_name": "ID de exibição",
     "output_name_desc_unix": "Durante a inicialização do Sunshine, você deverá ver a lista de monitores detectados. Observação: você precisa usar o valor de id dentro do parêntese. Abaixo está um exemplo; a saída real pode ser encontrada na guia Solução de problemas.",
     "output_name_desc_windows": "Especifique manualmente um ID de dispositivo de exibição a ser usado para captura. Se não for definido, a tela principal será capturada. Observação: se você especificou uma GPU acima, esse monitor deverá estar conectado a essa GPU. Durante a inicialização do Sunshine, você deverá ver a lista de monitores detectados. Abaixo está um exemplo; a saída real pode ser encontrada na guia Solução de problemas.",
+    "packetsize": "Limite de tamanho de pacote",
+    "packetsize_desc": "Limite o tamanho dos pacotes para evitar fragmentação em uma conexão com MTU baixa. Isso ajuda a reduzir a perda de pacotes e microtravamentos ao transmitir por layer 2 VPN para clientes que não podem configurar esse valor, como Moonlight para Android/iOS. Reduza a taxa de bits ao usar valores baixos. Valores maiores que 1456 exigem jumbo frames. Intervalo: 0, 200-65535. Um valor de 0 desativará o limite.",
     "ping_timeout": "Tempo limite de ping",
     "ping_timeout_desc": "Quanto tempo esperar, em milissegundos, pelos dados do moonlight antes de encerrar o fluxo",
     "pkey": "Chave privada",

@@ -313,6 +313,8 @@
     "output_name": "显示器Id",
     "output_name_desc_unix": "在 Sunshine 启动过程中，您将看到检测到的显示器列表。注意：您需要使用括号内的 ID 值。",
     "output_name_desc_windows": "手动指定用于捕获的显示设备ID。如果未设置，则捕获主显示器。 注意：如果您在上面指定了GPU，则此显示设备必须连接到该GPU。在Sunshine启动时，您可在日志中查看已检测到的显示器列表。下方为示例，实际输出可在故障排除选项卡中找到。",
+    "packetsize": "資料包大小限制",
+    "packetsize_desc": "限制数据包大小以避免在低 MTU 链路上发生分片。这有助于在通过 layer 2 VPN 向无法配置此值的客户端（例如 Android/iOS 版 Moonlight）进行流媒体传输时减少丢包和微卡顿。使用较低值时请降低比特率。大于 1456 的值需要 jumbo frames。范围：0、200-65535。值为 0 将禁用该限制。",
     "ping_timeout": "Ping 超时",
     "ping_timeout_desc": "关闭串流前等待 Moonlight 数据的时间（以毫秒计）",
     "pkey": "私人密钥",

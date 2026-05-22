@@ -313,6 +313,8 @@
     "output_name": "Ekran Kimliği",
     "output_name_desc_unix": "Sunshine başlangıcı sırasında, algılanan ekranların listesini görmelisiniz. Not: Parantez içindeki id değerini kullanmanız gerekir.",
     "output_name_desc_windows": "Yakalama için kullanılacak bir ekranı manuel olarak belirleyin. Ayarlanmamışsa, birincil ekran yakalanır. Not: Yukarıda bir GPU belirttiyseniz, bu ekranın o GPU'ya bağlı olması gerekir. Uygun değerler aşağıdaki komut kullanılarak bulunabilir:",
+    "packetsize": "Paket Boyutu Sınırı",
+    "packetsize_desc": "Paket boyutunu, düşük MTU'lu bir bağlantıda parçalanmayı önlemek için sınırlayın. Bu, bu değeri yapılandıramayan istemcilere (ör. Android/iOS için Moonlight) layer 2 VPN üzerinden yayın yaparken paket kaybını ve mikro takılmaları azaltmaya yardımcı olur. Düşük değerler kullanıldığında bit hızını düşürün. 1456'dan büyük değerler jumbo frame gerektirir. Aralık: 0, 200-65535. 0 değeri sınırlamayı devre dışı bırakır.",
     "ping_timeout": "Ping Zaman Aşımı",
     "ping_timeout_desc": "Akışı kapatmadan önce ay ışığından gelen veriler için milisaniye cinsinden ne kadar süre bekleneceği",
     "pkey": "Özel Anahtar",

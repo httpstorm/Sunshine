@@ -313,6 +313,8 @@
     "output_name": "Id anzeigen",
     "output_name_desc_unix": "Während des Starts von Sunshine sollten Sie die Liste der erkannten Anzeigen sehen. Hinweis: Sie müssen den Id-Wert innerhalb der Klammer verwenden.",
     "output_name_desc_windows": "Legen Sie eine Anzeige für die Aufnahme manuell fest. Wenn diese nicht aktiviert ist, wird die primäre Anzeige aufgenommen. Hinweis: Wenn Sie eine GPU oben angegeben haben, muss diese Anzeige mit dieser GPU verbunden sein. Die entsprechenden Werte finden Sie mit dem folgenden Befehl:",
+    "packetsize": "Paketgrößenbegrenzung",
+    "packetsize_desc": "Begrenzen Sie die Paketgröße, um Fragmentierung bei Verbindungen mit niedrigem MTU zu vermeiden. Dies hilft, Paketverluste und Mikro-Ruckler beim Streaming über ein layer 2 VPN zu Clients zu reduzieren, die diesen Wert nicht konfigurieren können, z. B. Moonlight für Android/iOS. Reduzieren Sie die Bitrate bei Verwendung niedriger Werte. Werte größer als 1456 erfordern Jumbo-Frames. Bereich: 0, 200-65535. Ein Wert von 0 deaktiviert die Begrenzung.",
     "ping_timeout": "Ping-Timeout",
     "ping_timeout_desc": "Verzögerung in Millisekunden beim Warten auf Daten von Moonlight bevor der Stream beendet wird",
     "pkey": "Privater Schlüssel",

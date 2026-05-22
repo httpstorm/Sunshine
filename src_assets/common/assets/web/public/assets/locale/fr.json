@@ -313,6 +313,8 @@
     "output_name": "Identifiant d'affichage",
     "output_name_desc_unix": "Lors du démarrage de Sunshine, vous devriez voir la liste des affichages détectés. Note : Vous devez utiliser la valeur de l'id entre parenthèses.",
     "output_name_desc_windows": "Spécifiez manuellement un identifiant de périphérique d'affichage à utiliser pour la capture. Si ce champ est vide, l'affichage principal sera capturé. Remarque : Si vous avez spécifié un GPU ci-dessus, cet affichage doit être connecté à ce GPU. Lors du démarrage de Sunshine, vous devriez voir la liste des affichages détectés. Ci-dessous un exemple ; la sortie réelle peut être consultée dans l'onglet Dépannage.",
+    "packetsize": "Limite de taille des paquets",
+    "packetsize_desc": "Limitez la taille des paquets pour éviter la fragmentation sur une liaison à faible MTU. Cela aide à réduire la perte de paquets et les micro-saccades lors du streaming via layer 2 VPN vers des clients qui ne peuvent pas configurer cette valeur, par ex. Moonlight pour Android/iOS. Réduisez le débit binaire lors de l'utilisation de valeurs faibles. Les valeurs supérieures à 1456 nécessitent des jumbo frames. Plage : 0, 200-65535. Une valeur de 0 désactivera la limite.",
     "ping_timeout": "Timeout du ping",
     "ping_timeout_desc": "Combien de temps attendre en millisecondes pour des données de Moonlight avant de couper le stream",
     "pkey": "Clé privée",

@@ -313,6 +313,8 @@
     "output_name": "Kijelző azonosító",
     "output_name_desc_unix": "A Sunshine indulásakor láthatod az észlelt kijelzők listáját. Megjegyzés: A zárójelben lévő azonosítót kell használnod. Alább egy példa látható; a tényleges kimenet a Hibaelhárítás lapon található.",
     "output_name_desc_windows": "Kézileg megadható egy kijelzőeszköz azonosító a rögzítéshez. Ha nincs beállítva, az elsődleges kijelző kerül rögzítésre. Megjegyzés: Ha fent megadtál egy GPU-t, ennek a kijelzőnek ahhoz a GPU-hoz kell csatlakoznia. A Sunshine indulásakor láthatod az észlelt kijelzők listáját. Alább egy példa látható; a tényleges kimenet a Hibaelhárítás lapon található.",
+    "packetsize": "Csomagméret-korlátozás",
+    "packetsize_desc": "Korlátozza a csomagméretet a fragmentáció elkerülése érdekében alacsony MTU-jú kapcsolaton. Ez segít csökkenteni a csomagvesztést és a mikro-akadozást, amikor layer 2 VPN-en keresztül streamel olyan klienseknek, amelyek nem tudják konfigurálni ezt az értéket, pl. Moonlight Android/iOS-re. Csökkentse a bitrátát alacsony értékek használata esetén. A 1456-nál nagyobb értékek jumbo frame-eket igényelnek. Tartomány: 0, 200-65535. A 0 érték letiltja a korlátozást.",
     "ping_timeout": "Ping időkorlát",
     "ping_timeout_desc": "Ennyi ezredmásodpercet vár a moonlight-tól érkező adatra, mielőtt leállítaná a streamet",
     "pkey": "Privát kulcs",

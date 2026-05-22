@@ -313,6 +313,8 @@
     "output_name": "ID de exibição",
     "output_name_desc_unix": "Durante a inicialização do sol, você deve ver a lista de telas detectadas. Nota: Você precisa usar o valor do id dentro dos parênteses.",
     "output_name_desc_windows": "Especifique manualmente um display a ser usado para captura. Se não for definido, o display primário é capturado. Nota: Se você especificou uma GPU acima, essa tela deve estar conectada à GPU. Os valores apropriados podem ser encontrados usando o seguinte comando:",
+    "packetsize": "Limite de tamanho de pacote",
+    "packetsize_desc": "Limite o tamanho dos pacotes para evitar fragmentação numa ligação com MTU baixa. Isto ajuda a reduzir a perda de pacotes e os micro-gaguejos ao transmitir por layer 2 VPN para clientes que não conseguem configurar este valor, por ex. Moonlight para Android/iOS. Reduza a taxa de bits ao usar valores baixos. Valores superiores a 1456 exigem jumbo frames. Intervalo: 0, 200-65535. Um valor de 0 desativará o limite.",
     "ping_timeout": "Tempo limite",
     "ping_timeout_desc": "Quanto tempo esperar em milissegundos por dados do luar antes de desligar o fluxo",
     "pkey": "Chave Privada",

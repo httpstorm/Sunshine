@@ -313,6 +313,8 @@
     "output_name": "Visa Id",
     "output_name_desc_unix": "Under Sunshine start, bör du se listan över upptäckta visningar. Obs: Du måste använda id-värdet inuti parentesen.",
     "output_name_desc_windows": "Ange manuellt en display som ska användas för att fånga. Om den avaktiveras fångas den primära displayen. Obs: Om du angav en GPU ovan måste denna display vara ansluten till den GPU. De lämpliga värdena kan hittas med följande kommando:",
+    "packetsize": "Paketstorleksgräns",
+    "packetsize_desc": "Begränsa paketstorleken för att undvika fragmentering på en länk med låg MTU. Detta hjälper till att minska paketförlust och mikro-stuttering vid streaming över layer 2 VPN till klienter som inte kan konfigurera detta värde, t.ex. Moonlight för Android/iOS. Minska bithastigheten vid användning av låga värden. Värden större än 1456 kräver jumbo frames. Intervall: 0, 200-65535. Ett värde på 0 inaktiverar begränsningen.",
     "ping_timeout": "Ping Timeout",
     "ping_timeout_desc": "Hur lång tid att vänta i millisekunder för data från månsken innan du stänger av strömmen",
     "pkey": "Privat nyckel",

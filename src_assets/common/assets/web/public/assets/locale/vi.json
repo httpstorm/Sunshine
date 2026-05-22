@@ -313,6 +313,8 @@
     "output_name": "ID hiển thị",
     "output_name_desc_unix": "Trong quá trình khởi động Sunshine, bạn sẽ thấy danh sách các màn hình được phát hiện. Lưu ý: Bạn cần sử dụng giá trị ID bên trong dấu ngoặc đơn. Dưới đây là một ví dụ; kết quả thực tế có thể được tìm thấy trong tab Khắc phục sự cố.",
     "output_name_desc_windows": "Chỉ định thủ công ID thiết bị hiển thị để sử dụng cho việc ghi hình. Nếu không được thiết lập, thiết bị hiển thị chính sẽ được ghi hình. Lưu ý: Nếu bạn đã chỉ định GPU ở trên, thiết bị hiển thị này phải được kết nối với GPU đó. Trong quá trình khởi động Sunshine, bạn sẽ thấy danh sách các thiết bị hiển thị được phát hiện. Dưới đây là một ví dụ; kết quả thực tế có thể được tìm thấy trong tab Khắc phục sự cố.",
+    "packetsize": "Giới hạn kích thước gói",
+    "packetsize_desc": "Hạn chế kích thước gói để tránh phân mảnh trên liên kết có MTU thấp. Điều này giúp giảm mất gói và giật nhỏ khi phát trực tiếp qua layer 2 VPN tới các client không thể cấu hình giá trị này, ví dụ Moonlight cho Android/iOS. Giảm bitrate khi sử dụng các giá trị thấp. Giá trị lớn hơn 1456 yêu cầu jumbo frames. Phạm vi: 0, 200-65535. Giá trị 0 sẽ vô hiệu hóa giới hạn.",
     "ping_timeout": "Thời gian chờ ping",
     "ping_timeout_desc": "Thời gian chờ (tính bằng mili giây) trước khi ngừng truyền dữ liệu từ Moonlight.",
     "pkey": "Khóa riêng",
